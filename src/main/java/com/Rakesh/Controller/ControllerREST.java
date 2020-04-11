@@ -21,7 +21,7 @@ import com.Rakesh.Repo.Repo;
 
 @RestController
 @RequestMapping("/users")
-@CrossOrigin(origins = "http://localhost:3000")
+@CrossOrigin(origins = "https://toyswer-another.herokuapp.com/")
 public class ControllerREST {
 	
 	@Autowired
